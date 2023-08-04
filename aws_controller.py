@@ -1,6 +1,6 @@
 import boto3
 
-session = boto3.Session( aws_access_key_id='AKIAR5FKICKK3IMSNLW2', aws_secret_access_key='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')
+session = boto3.Session( )
 dynamo_client = session.resource('dynamodb',region_name='us-east-1')
 table = dynamo_client.Table('YourTestTable')
 
