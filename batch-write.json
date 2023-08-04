@@ -1,0 +1,79 @@
+{
+  "YourTestTable": [
+    {
+      "PutRequest": {
+        "Item":
+        {
+          "FirstName": {
+            "S": "Ethan"
+          },
+          "LastName": {
+            "S": "Baxter"
+          },
+          "Date": {
+            "S": "Life on Mars"
+          },
+          "Belt": {
+            "S": "Life on Mars"
+          },
+          "Level": {
+            "S": "Life on Mars"
+          },
+          "Activity": {
+            "S": "Life on Mars"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item":
+        {
+          "FirstName": {
+            "S": "Luka"
+          },
+          "LastName": {
+            "S": "Perez"
+          },
+          "Date": {
+            "S": "Life on Mars"
+          },
+          "Belt": {
+            "S": "Life on Mars"
+          },
+          "Level": {
+            "S": "Life on Mars"
+          },
+          "Activity": {
+            "S": "Life on Mars"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item":
+        {
+          "FirstName": {
+            "S": "Adalynn"
+          },
+          "LastName": {
+            "S": "Thomas"
+          },
+          "Date": {
+            "S": "Life on Mars"
+          },
+          "Belt": {
+            "S": "Life on Mars"
+          },
+          "Level": {
+            "S": "Life on Mars"
+          },
+          "Activity": {
+            "S": "Life on Mars"
+          }
+        }
+      }
+    }
+  ]
+}

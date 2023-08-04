@@ -1,0 +1,15 @@
+{
+    "TableName": "YourTestTable",
+    "KeySchema": [
+      { "AttributeName": "FirstName", "KeyType": "HASH" },
+      { "AttributeName": "LastName", "KeyType": "RANGE" }
+    ],
+    "AttributeDefinitions": [
+      { "AttributeName": "FirstName", "AttributeType": "S" },
+      { "AttributeName": "LastName", "AttributeType": "S" }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 1,
+      "WriteCapacityUnits": 1
+    }
+}
