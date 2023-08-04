@@ -1,6 +1,6 @@
 import boto3
 
-dynamo_client = boto3.resource('dynamodb')
+dynamo_client = boto3.resource('dynamodb',region_name='us-east-1')
 table = dynamo_client.Table('YourTestTable')
 
 def get_items():
